@@ -1,6 +1,6 @@
 --1 Sentence: Sentences, Clauses, and Imperatives
 
-concrete SentenceXXX of Sentence = CatXXX ** open Prelude in {
+concrete SentenceEpo of Sentence = CatEpo ** open Prelude in {
 
 --2 Clauses
 

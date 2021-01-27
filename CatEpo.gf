@@ -18,7 +18,7 @@
 -- are defined on $Conjunction$ and only used locally there.
 
 
-concrete CatXXX of Cat = CommonX ** open Prelude in {
+concrete CatEpo of Cat = CommonX ** open Prelude in {
 
   lincat
 

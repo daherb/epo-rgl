@@ -1,4 +1,4 @@
-concrete LexiconXXX of Lexicon = CatXXX ** open Prelude in {
+concrete LexiconEpo of Lexicon = CatEpo ** open Prelude in {
 lin
   -- add_V3 : V3 ;
   add_V3 = ss "add" ;

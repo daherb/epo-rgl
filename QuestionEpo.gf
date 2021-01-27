@@ -1,6 +1,6 @@
 --1 Question: Questions and Interrogative Pronouns
 
-concrete QuestionXXX of Question = CatXXX ** open Prelude in {
+concrete QuestionEpo of Question = CatEpo ** open Prelude in {
 
 -- A question can be formed from a clause ('yes-no question') or
 -- with an interrogative.

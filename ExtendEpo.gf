@@ -13,7 +13,7 @@
 -- (c) Aarne Ranta 2017-08-20 under LGPL and BSD
 
 
-concrete ExtendXXX of Extend = CatXXX ** open Prelude,(P=ParamX) in {
+concrete ExtendEpo of Extend = CatEpo ** open Prelude,(P=ParamX) in {
 
   lin
     

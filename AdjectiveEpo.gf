@@ -1,6 +1,6 @@
 --1 Adjective: Adjectives and Adjectival Phrases
 
-concrete AdjectiveXXX of Adjective = CatXXX ** open Prelude in {
+concrete AdjectiveEpo of Adjective = CatEpo ** open Prelude in {
 
   lin
 

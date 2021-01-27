@@ -3,7 +3,7 @@
 -- *Note*. This module is not automatically included in the main
 -- grammar [Lang Lang.html].
 
-concrete SymbolXXX of Symbol = CatXXX, PredefAbs, Prelude ** {
+concrete SymbolEpo of Symbol = CatEpo, PredefAbs, Prelude ** {
 
 --2 Noun phrases with symbols and numbers
 

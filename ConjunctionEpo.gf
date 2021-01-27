@@ -11,7 +11,7 @@
 -- depends on language. Some special cases are defined in 
 -- [``Extra`` ../abstract/Extra.gf].
 
-concrete ConjunctionXXX of Conjunction = CatXXX ** open Prelude in {
+concrete ConjunctionEpo of Conjunction = CatEpo ** open Prelude in {
 
 --2 Rules
 

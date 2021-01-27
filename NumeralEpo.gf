@@ -17,7 +17,7 @@
 -- parts of a numeral, which is often incorrect - more work on
 -- (un)lexing is needed to solve this problem.
 
-concrete NumeralXXX of Numeral = CatXXX [Numeral,Digits] ** open Prelude in {
+concrete NumeralEpo of Numeral = CatEpo [Numeral,Digits] ** open Prelude in {
 
   lincat 
     Digit = SS ;      -- 2..9

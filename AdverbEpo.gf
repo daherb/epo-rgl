@@ -1,6 +1,6 @@
 --1 Adverb: Adverbs and Adverbial Phrases
 
-concrete AdverbXXX of Adverb = CatXXX ** open Prelude in {
+concrete AdverbEpo of Adverb = CatEpo ** open Prelude in {
 
   lin
 

@@ -1,6 +1,6 @@
 --1 Phrase: Phrases and Utterances
 
-concrete PhraseXXX of Phrase = CatXXX ** open Prelude in {
+concrete PhraseEpo of Phrase = CatEpo ** open Prelude in {
 
 -- When a phrase is built from an utterance it can be prefixed
 -- with a phrasal conjunction (such as "but", "therefore")

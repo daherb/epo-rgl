@@ -1,6 +1,6 @@
 --1 The construction of verb phrases
 
-concrete VerbXXX of Verb = CatXXX ** open Prelude in{
+concrete VerbEpo of Verb = CatEpo ** open Prelude in{
 
   flags coding = utf8 ;
 

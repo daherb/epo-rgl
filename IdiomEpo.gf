@@ -1,6 +1,6 @@
 --1 Idiom: Idiomatic Expressions
 
-concrete IdiomXXX of Idiom = CatXXX ** open Prelude in {
+concrete IdiomEpo of Idiom = CatEpo ** open Prelude in {
 
 -- This module defines constructions that are formed in fixed ways,
 -- often different even in closely related languages.

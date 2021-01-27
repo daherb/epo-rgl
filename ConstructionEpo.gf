@@ -1,4 +1,4 @@
-concrete ConstructionXXX of Construction = CatXXX ** open Prelude in {
+concrete ConstructionEpo of Construction = CatEpo ** open Prelude in {
 
 -- started by AR 6/12/2013. (c) Aarne Ranta under LGPL and BSD
 

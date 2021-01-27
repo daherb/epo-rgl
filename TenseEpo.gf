@@ -9,7 +9,7 @@
 -- Romance languages in [``ExtraRomance`` ../romance/ExtraRomance.gf].
 
 -- For most languages [``TenseX`` ../common/TenseX.gf] can be used:
-concrete TenseXXX of Tense = TenseX ;
+concrete TenseEpo of Tense = TenseX ;
 -- If that is not possible implement the following module:
 {-
   CommonX ** open (P=ParamX), Prelude in {

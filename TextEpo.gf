@@ -4,10 +4,10 @@
 -- using as constructors the punctuation marks ".", "?", and "!".
 -- Any punctuation mark can be attached to any kind of phrase.
 -- For most languages [``TextX`` ../common/TextX.gf] can be used:
-concrete TextXXX of Text = TextX ;
+concrete TextEpo of Text = TextX ;
 -- If that is not possible implement the following module:
 {-
-concrete TextXXX of Text = CommonX ** open Prelude in {
+concrete TextEpo of Text = CommonX ** open Prelude in {
 
   lin
     

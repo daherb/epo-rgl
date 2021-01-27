@@ -5,10 +5,10 @@
 -- The grammar without a lexicon is [``Grammar`` Grammar.html],
 -- which may be more suitable to open in applications.
 
-concrete LangXXX of Lang = 
-  GrammarXXX
-, LexiconXXX
-, ConstructionXXX  --- could be compiled here, but not in concretes, as they call Syntax and Grammar
--- , DocumentationXXX  --# notpresent
--- , MarkupXXX - [stringMark]
+concrete LangEpo of Lang = 
+  GrammarEpo
+, LexiconEpo
+, ConstructionEpo  --- could be compiled here, but not in concretes, as they call Syntax and Grammar
+-- , DocumentationEpo  --# notpresent
+-- , MarkupEpo - [stringMark]
 ;

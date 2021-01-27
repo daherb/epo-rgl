@@ -1,6 +1,6 @@
 --1 Noun: Nouns, noun phrases, and determiners
 
-concrete NounXXX of Noun = CatXXX ** open Prelude in {
+concrete NounEpo of Noun = CatEpo ** open Prelude in {
 
 
 --2 Noun phrases

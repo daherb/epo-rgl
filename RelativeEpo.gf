@@ -1,6 +1,6 @@
 --1 Relative clauses and pronouns
 
-concrete RelativeXXX of Relative = CatXXX ** open Prelude in{
+concrete RelativeEpo of Relative = CatEpo ** open Prelude in{
 
   lin
 

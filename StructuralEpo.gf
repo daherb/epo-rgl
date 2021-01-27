@@ -6,7 +6,7 @@
 -- should be replaced by masculine and feminine variants, found in
 -- [``ExtendSpa`` ../spanish/ExtendSpa.gf].
 
-concrete StructuralXXX of Structural = CatXXX ** open Prelude in {
+concrete StructuralEpo of Structural = CatEpo ** open Prelude in {
 
   lin
 
@@ -225,6 +225,6 @@ concrete StructuralXXX of Structural = CatXXX ** open Prelude in {
     have_V2 = ss "have" ;
     
     --   language_title_Utt : Utt ;
-    language_title_Utt = ss "XXX" ;
+    language_title_Utt = ss "Epo" ;
 
 }
