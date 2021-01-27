@@ -108,25 +108,25 @@ concrete CatEpo of Cat = CommonX ** open Prelude in {
 -- These are constructed in [Lexicon Lexicon.html] and in 
 -- additional lexicon modules.
 
-    V = SS ;        -- one-place verb                      e.g. "sleep" 
-    V2 = SS ;       -- two-place verb                      e.g. "love"
-    V3 = SS ;       -- three-place verb                    e.g. "show"
-    VV = SS ;       -- verb-phrase-complement verb         e.g. "want"
-    VS = SS ;       -- sentence-complement verb            e.g. "claim"
-    VQ = SS ;       -- question-complement verb            e.g. "wonder"
-    VA = SS ;       -- adjective-complement verb           e.g. "look"
-    V2V = SS ;      -- verb with NP and V complement       e.g. "cause"
-    V2S = SS ;      -- verb with NP and S complement       e.g. "tell"
-    V2Q = SS ;      -- verb with NP and Q complement       e.g. "ask"
-    V2A = SS ;      -- verb with NP and AP complement      e.g. "paint"
+    V = Verb ;        -- one-place verb                      e.g. "sleep" 
+    V2 = Verb ;       -- two-place verb                      e.g. "love"
+    V3 = Verb ;       -- three-place verb                    e.g. "show"
+    VV = Verb ;       -- verb-phrase-complement verb         e.g. "want"
+    VS = Verb ;       -- sentence-complement verb            e.g. "claim"
+    VQ = Verb ;       -- question-complement verb            e.g. "wonder"
+    VA = Verb ;       -- adjective-complement verb           e.g. "look"
+    V2V = Verb ;      -- verb with NP and V complement       e.g. "cause"
+    V2S = Verb ;      -- verb with NP and S complement       e.g. "tell"
+    V2Q = Verb ;      -- verb with NP and Q complement       e.g. "ask"
+    V2A = Verb ;      -- verb with NP and AP complement      e.g. "paint"
 
-    A = SS ;        -- one-place adjective                 e.g. "warm"
-    A2 = SS ;       -- two-place adjective                 e.g. "divisible"
+    A = Adjective ;        -- one-place adjective                 e.g. "warm"
+    A2 = Adjective ;       -- two-place adjective                 e.g. "divisible"
 
-    N = SS ;        -- common noun                         e.g. "house"
-    N2 = SS ;       -- relational noun                     e.g. "son"
-    N3 = SS ;       -- three-place relational noun         e.g. "connection"
-    PN = SS ;       -- proper name                         e.g. "Paris"
+    N = Noun ;        -- common noun                         e.g. "house"
+    N2 = Noun ;       -- relational noun                     e.g. "son"
+    N3 = Noun ;       -- three-place relational noun         e.g. "connection"
+    PN = Noun ;       -- proper name                         e.g. "Paris"
 
 -- DEPRECATED: QuantSg, QuantPl
 ---    QuantSg ;-- quantifier ('nucleus' of sing. Det) e.g. "every"
