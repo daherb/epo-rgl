@@ -5,5 +5,4 @@ resource ResEpo = open Prelude in {
     Noun = SS ;
     Verb = SS ;
     Adjective = SS ;
-    Adverb = SS ;
 }
