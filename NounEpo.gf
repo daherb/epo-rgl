@@ -100,9 +100,9 @@ concrete NounEpo of Noun = CatEpo ** open Prelude in {
 -- any particular word (Finnish; Swedish definites).
 
     -- IndefArt   : Quant ;  -- a/an
-    IndefArt = ss "a" ;
+    IndefArt = ss "" ;
     -- DefArt     : Quant ;  -- the
-    DefArt = ss "the" ;
+    DefArt = ss "la" ;
 
 -- Nouns can be used without an article as mass nouns. The resource does
 -- not distinguish mass nouns from other common nouns, which can result
