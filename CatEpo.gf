@@ -84,7 +84,7 @@ concrete CatEpo of Cat = CommonX ** open ResEpo, Prelude in {
     Num = SS ;      -- number determining element          e.g. "seven"
     Card = SS ;     -- cardinal number                     e.g. "seven"
     ACard = SS ;    -- adjective like cardinal             e.g. "few", "many"
-    Ord = SS ;      -- ordinal number (used in Det)        e.g. "seventh"
+    Ord = Noun ;       -- ordinal number (used in Det)        e.g. "seventh"
     DAP = SS ;      -- determiner with adjective           e.g. "three small"
 
 --2 Numerals
@@ -120,8 +120,8 @@ concrete CatEpo of Cat = CommonX ** open ResEpo, Prelude in {
     V2Q = Verb ;      -- verb with NP and Q complement       e.g. "ask"
     V2A = Verb ;      -- verb with NP and AP complement      e.g. "paint"
 
-    A = Adjective ;        -- one-place adjective                 e.g. "warm"
-    A2 = Adjective ;       -- two-place adjective                 e.g. "divisible"
+    A = Noun ;        -- one-place adjective                 e.g. "warm"
+    A2 = Noun ;       -- two-place adjective                 e.g. "divisible"
 
     N = Noun ;        -- common noun                         e.g. "house"
     N2 = Noun ;       -- relational noun                     e.g. "son"
