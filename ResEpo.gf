@@ -33,7 +33,7 @@ resource ResEpo = open
       } ;
       
     -- Function to put an prefix before a noun
-    prefixNoun : Noun -> Str -> Noun = \n,p ->
+    prefixNoun : Str -> Noun -> Noun = \p,n ->
       { s = \\num,cas => p + n.s ! num ! cas } ;
 
     -- Function to put an infix into a noun
