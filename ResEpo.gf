@@ -1,7 +1,7 @@
 resource ResEpo = open
   Prelude
   , Predef -- for error
-  , ParamX -- for Tense
+  , ParamX -- for Tense, Number
   in {
 
   param
