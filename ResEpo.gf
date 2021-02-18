@@ -43,4 +43,22 @@ resource ResEpo = open
 	varm + "a" => mkNoun (varm + i + "a" ) ;
 	_ => error ( "Neither noun or adjective: " + n.s ! Sg ! Nom )
       } ;
+
+  oper
+    
+    Determiner = { s : Str ;  n : Number } ;
+    
+    CommonNoun = {
+      s : Number => Case => Str ;   -- the noun
+      adj : Number => Case => Str ; -- list of adjective modifiers
+      isAPre : Bool ;               -- marker if adjectives are before or after the noun
+      adv : Str                     -- the adverb
+      } ;
+    NounPhrase = {
+      s : Case => Str ;
+      adj : Case => Str ;
+      isAPre : Bool ;  -- see common noun
+      adv : Str ;
+      det : Str } ;
+    
 }

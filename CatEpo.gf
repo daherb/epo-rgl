@@ -18,8 +18,10 @@
 -- are defined on $Conjunction$ and only used locally there.
 
 
-concrete CatEpo of Cat = CommonX ** open ResEpo, Prelude in {
+concrete CatEpo of Cat = CommonX ** open ParamX, ResEpo, Prelude in {
 
+  -- Most categories are defined in ResEpo and renamed here
+  
   lincat
 
 --2 Sentences and clauses
@@ -75,13 +77,13 @@ concrete CatEpo of Cat = CommonX ** open ResEpo, Prelude in {
 -- ``` Predet (QuantSg | QuantPl Num) Ord
 -- as defined in [Noun Noun.html].
 
-    CN = SS ;       -- common noun (without determiner)    e.g. "red house"
-    NP = SS ;       -- noun phrase (subject or object)     e.g. "the red house"
-    Pron = SS ;     -- personal pronoun                    e.g. "she"
-    Det = SS ;      -- determiner phrase                   e.g. "those seven"
+    CN = CommonNoun ;       -- common noun (without determiner)    e.g. "red house"
+    NP = NounPhrase ;       -- noun phrase (subject or object)     e.g. "the red house"
+    Pron = NounPhrase ;     -- personal pronoun                    e.g. "she"
+    Det = Determiner ;      -- determiner phrase                   e.g. "those seven"
     Predet = SS ;   -- predeterminer (prefixed Quant)      e.g. "all"
     Quant = SS ;    -- quantifier ('nucleus' of Det)       e.g. "this/these"
-    Num = SS ;      -- number determining element          e.g. "seven"
+    Num = { s : Str ; n : Number } ;      -- number determining element          e.g. "seven"
     Card = SS ;     -- cardinal number                     e.g. "seven"
     ACard = SS ;    -- adjective like cardinal             e.g. "few", "many"
     Ord = Noun ;       -- ordinal number (used in Det)        e.g. "seventh"
@@ -91,8 +93,8 @@ concrete CatEpo of Cat = CommonX ** open ResEpo, Prelude in {
 
 -- Constructed in [Numeral Numeral.html].
 
-    Numeral = SS ;  -- cardinal or ordinal in words       e.g. "five/fifth"
-    Digits = SS ;   -- cardinal or ordinal in digits      e.g. "1,000/1,000th"
+    Numeral = { s : Str ; ord : Noun } ;  -- cardinal or ordinal in words       e.g. "five/fifth"
+    Digits = { s : Str ; ord : Noun } ;   -- cardinal or ordinal in digits      e.g. "1,000/1,000th"
 
 --2 Structural words
 
